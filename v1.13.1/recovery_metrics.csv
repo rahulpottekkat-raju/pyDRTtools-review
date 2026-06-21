@@ -1,0 +1,26 @@
+case,metric,name,value,limit,passed
+1ZARC exact,R_inf,1ZARC exact: R_inf,0.0018343399753181443,<= 0.05 relative error,True
+1ZARC exact,R_pol,1ZARC exact: R_pol,0.002875320599505784,<= 0.20 relative error,True
+1ZARC exact,tau peak,1ZARC exact: tau peak,0.004326328800988906,<= 0.35 log10 decades,True
+1ZARC exact,impedance residual,1ZARC exact: impedance residual,0.00034735579773010955,<= 0.06 relative residual,True
+1ZARC noisy,R_inf,1ZARC noisy: R_inf,0.0010727674382588147,<= 0.05 relative error,True
+1ZARC noisy,R_pol,1ZARC noisy: R_pol,0.0030702921974042853,<= 0.20 relative error,True
+1ZARC noisy,tau peak,1ZARC noisy: tau peak,0.006798516687268785,<= 0.35 log10 decades,True
+1ZARC noisy,impedance residual,1ZARC noisy: impedance residual,0.0021477978586386458,<= 0.06 relative residual,True
+2ZARC0.csv,total R_pol,2ZARC0.csv: total R_pol,0.0002500372159131943,<= 0.25 relative error,True
+2ZARC0.csv,two-peak tau recovery,2ZARC0.csv: two-peak tau recovery,0.20000000000000015,<= 0.45 log10 decades,True
+2ZARC1.csv,total R_pol,2ZARC1.csv: total R_pol,0.0006068117680616052,<= 0.25 relative error,True
+2ZARC1.csv,two-peak tau recovery,2ZARC1.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+2ZARC2.csv,total R_pol,2ZARC2.csv: total R_pol,0.0014153454051252842,<= 0.25 relative error,True
+2ZARC2.csv,two-peak tau recovery,2ZARC2.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+2ZARC3.csv,total R_pol,2ZARC3.csv: total R_pol,4.669829662154424e-05,<= 0.25 relative error,True
+2ZARC3.csv,two-peak tau recovery,2ZARC3.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+2ZARC4.csv,total R_pol,2ZARC4.csv: total R_pol,0.0016208854232986954,<= 0.25 relative error,True
+2ZARC4.csv,two-peak tau recovery,2ZARC4.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+2ZARC5.csv,total R_pol,2ZARC5.csv: total R_pol,0.001831760837705501,<= 0.25 relative error,True
+2ZARC5.csv,two-peak tau recovery,2ZARC5.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+Bayesian smoke,credible arrays finite,Bayesian credible arrays finite,finite,all finite,True
+Bayesian smoke,credible intervals ordered,Bayesian credible intervals ordered,ordered,lower <= mean <= upper,True
+BHT smoke,returns status,BHT returns status,success,"success or clean failure, no hang",True
+BHT smoke,scores finite,BHT scores finite,finite,all finite on success,True
+BHT smoke,DRT availability,BHT DRT availability,unavailable/nonvalidated,validated only after explicit DRT validation,True

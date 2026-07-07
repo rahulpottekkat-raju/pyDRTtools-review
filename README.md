@@ -1,8 +1,9 @@
-## v1.16.7 — Summary
-- 1204 automated tests: 1204 passed, 5 failed (all Windows-specific)
-- 69 GUI tests: all passed
+## v1.16.12 — Summary
+- Environment: pip-based install via pyproject.toml (`pip install -e ".[test,gui]"`)
+- Core tests: 1145 passed, 2 failed (Windows path separator only)
+- GUI tests: 69 passed, 3 failed (new — Bayesian message format mismatch)
+- Recovery checks: 20/20 fast, 25/25 slow — all passed
 - 12 GUI screenshots
-- All previously fixed issues remain fixed
-- New cleanliness issues: `__MACOSX` folder and `AGENTS.md` present in archive
-- BHT optimizer still fails on Windows (clean failure)
-- #17 (High-DPI) not reproducible on test hardware
+- NEW BUG: Bayesian Run HMC sampler fails on 1ZARC.csv
+- NEW FEATURE: EIS Data tab shows Hilbert transform overlay after BHT run
+- __MACOSX folder fixed; AGENTS.md still present

@@ -1,0 +1,26 @@
+case,metric,name,value,limit,passed
+1ZARC exact,R_inf,1ZARC exact: R_inf,0.0018343399753028677,<= 0.05 relative error,True
+1ZARC exact,R_pol,1ZARC exact: R_pol,0.0028753205994790677,<= 0.20 relative error,True
+1ZARC exact,tau peak,1ZARC exact: tau peak,0.004326328800988906,<= 0.35 log10 decades,True
+1ZARC exact,impedance residual,1ZARC exact: impedance residual,0.00034735579772670233,<= 0.06 relative residual,True
+1ZARC noisy,R_inf,1ZARC noisy: R_inf,0.0010727674386503238,<= 0.05 relative error,True
+1ZARC noisy,R_pol,1ZARC noisy: R_pol,0.0030702921980528684,<= 0.20 relative error,True
+1ZARC noisy,tau peak,1ZARC noisy: tau peak,0.006798516687268785,<= 0.35 log10 decades,True
+1ZARC noisy,impedance residual,1ZARC noisy: impedance residual,0.002147797858646582,<= 0.06 relative residual,True
+2ZARC0.csv,total R_pol,2ZARC0.csv: total R_pol,0.0002500372159100938,<= 0.25 relative error,True
+2ZARC0.csv,two-peak tau recovery,2ZARC0.csv: two-peak tau recovery,0.20000000000000015,<= 0.45 log10 decades,True
+2ZARC1.csv,total R_pol,2ZARC1.csv: total R_pol,0.0006068117680786583,<= 0.25 relative error,True
+2ZARC1.csv,two-peak tau recovery,2ZARC1.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+2ZARC2.csv,total R_pol,2ZARC2.csv: total R_pol,0.0014153454051233894,<= 0.25 relative error,True
+2ZARC2.csv,two-peak tau recovery,2ZARC2.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+2ZARC3.csv,total R_pol,2ZARC3.csv: total R_pol,4.669829660900525e-05,<= 0.25 relative error,True
+2ZARC3.csv,two-peak tau recovery,2ZARC3.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+2ZARC4.csv,total R_pol,2ZARC4.csv: total R_pol,0.001620885423310513,<= 0.25 relative error,True
+2ZARC4.csv,two-peak tau recovery,2ZARC4.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+2ZARC5.csv,total R_pol,2ZARC5.csv: total R_pol,0.0018317608377147042,<= 0.25 relative error,True
+2ZARC5.csv,two-peak tau recovery,2ZARC5.csv: two-peak tau recovery,0.0,<= 0.45 log10 decades,True
+Bayesian smoke,credible arrays finite,Bayesian credible arrays finite,finite,all finite,True
+Bayesian smoke,credible intervals ordered,Bayesian credible intervals ordered,ordered,lower <= mean <= upper,True
+BHT smoke,returns status,BHT returns status,BHT HT estimation failed after 20 attempts; last error: attempt 20: ValueError: input operand has more dimensions than allowed by the axis remapping,"success or clean failure, no hang",True
+BHT smoke,scores finite,BHT scores finite,not applicable after clean failure,all finite on success,True
+BHT smoke,DRT availability,BHT DRT availability,unavailable/nonvalidated,validated only after explicit DRT validation,True
